@@ -20,4 +20,4 @@ This responsive website is created with :
 
 
 Thus, it's also a good template to start with (and a good remainder too).  
-Feel free to use those files.
+Feel free to use any script of this repo.
