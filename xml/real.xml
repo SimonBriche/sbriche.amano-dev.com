@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<galleries>
+		<gallery id="accueil">
+			<realisation id="recto-verso" />
+			<realisation id="genin" />
+			<realisation id="lunald" />
+			<realisation id="pikigraphik" />
+			<realisation id="orthowave" />
+		</gallery>
+		<gallery id="gameplay">
+			<realisation id="lunald" />
+			<realisation id="franprix" />
+			<realisation id="magic-moments" />
+			<realisation id="vediorbis" />
+			<realisation id="blz" />
+			<realisation id="kinotes" />
+			<realisation id="papermates" />
+			<realisation id="orthowave" />
+			<realisation id="connexball" />
+			<realisation id="foot3d" />
+			<realisation id="granus" />
+			<realisation id="granny" />
+			<realisation id="the-pour-tango" />
+		</gallery>
+		<gallery id="real-pro">
+			<realisation id="kitkat-break-ultime" />
+			<realisation id="ksting" />
+			<realisation id="quadriplay" />
+			<realisation id="carrefour-spectacle" />
+			<realisation id="latinaderm" />
+			<realisation id="recto-verso" />
+			<realisation id="chu" />
+			<realisation id="saperlisapin" />
+			<realisation id="pikigraphik" />
+			<realisation id="dickson" />
+			<realisation id="genin" />
+			<realisation id="code-gagnant" />
+			<realisation id="curly" />
+			<realisation id="zodio" />
+		</gallery>
+		<gallery id="croquis">
+			<realisation id="modele" />
+			<realisation id="originaux" />
+		</gallery>
+	</galleries>
+	<realisations>
+		<realisation id="test">
+			<titre>Titre test</titre>
+			<description><![CDATA[Description test]]></description>
+			<technos><![CDATA[Flash AS3<br>PHP<br>SQL Server]]></technos>
+			<link></link>
+			<images>
+				<image>img_21.png</image>
+				<image>img_22.jpg</image>
+			</images>
+			<mini></mini>
+		</realisation>
+		<realisation id="code-gagnant">
+			<titre>Le Code Gagnant</titre>
+			<description><![CDATA[<p>Opération promotionnelle pour les magasins Connexion au sein de Touche Etoile.</p><br><br><p>Création d'un framework PHP spécifique aux besoins de l'application.</p><br><br><p>Plusieurs milliers de codes à gérer par magasin, suivi en temps réel de la consommation des codes.</p>
+			]]></description>
+			<short_description><![CDATA[Opération promotionnelle pour les magasins Connexion]]></short_description>
+			<technos><![CDATA[<p>HTML</p><p>PHP</p><p>SQL Server</p>]]></technos>
+			<year>2011</year>
+			<link>http://lecodegagnant.fr/</link>
+			<folder>code-gagnant</folder>
+			<images>
+				<image>code-gagnant1.jpg</image>
+				<image>code-gagnant2.jpg</image>
+				<image>code-gagnant3.jpg</image>
+				<image>code-gagnant4.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="connexball">
+			<titre>Connex'Ball</titre>
+			<description><![CDATA[<p>Oprération promotionnelle pour les magasins Connexion au sein de Touche Etoile.</p><br><br><p>Des questions qualifiantes sont proposées aux internautes entre deux sessions de casse-briques.</p><br><br><p>Création d'un module de gameplay (casse-briques) pouvant être facilement déclinable selon les partenaires de Connexion.</p>]]></description>
+			<short_description><![CDATA[Opération promotionnelle pour Connexion au sein de Touche Etoile]]></short_description>
+			<technos><![CDATA[<p>Flash AS3 / Box2D</p><p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2012</year>
+			<link></link>
+			<folder>connexball</folder>
+			<images>
+				<image>connexball1.jpg</image>
+				<image>connexball2.jpg</image>
+				<image>connexball3.jpg</image>
+				<image>connexball4.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="foot3d">
+			<titre>Pro Football 3D</titre>
+			<description><![CDATA[<p>Gameplay de tir au pénalty, en 3D temps réel.</p><br><br><p>Le rendu 3D est assuré par le moteur Papervision 3D et la simulation physique par WOW-Engine.</p><br><br><p>Auto-promotion de Touche Etoile.</p>]]></description>
+			<short_description><![CDATA[Gameplay de tir au pénalty]]></short_description>
+			<technos><![CDATA[<p>Flash AS3 / Papervision3D / WOW-Egine (physique)</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year></year>
+			<link></link>
+			<folder>foot3d</folder>
+			<images>
+				<image>foot3d1.jpg</image>
+				<image>foot3d2.jpg</image>
+				<image>foot3d3.jpg</image>
+				<image>foot3d4.jpg</image>
+				<image>foot3d5.jpg</image>
+				<image>foot3d6.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="genin">
+			<titre>Philippe Genin Locations</titre>
+			<description><![CDATA[<p>Site de réservation en ligne d'appartements aux Arcs 2000 pour Philippe Genin.</p><br><br><p>Réservation via un calendrier en temps réél, la confirmation est faite par mail via le back office.</p><br><br><p>Les appartements sont aux pieds des pistes.</p><br><br><p>Graphisme réalisé par <u><a href="http://www.linkedin.com/in/charlesepinette" target="_blank">Charles Epinette</a></u></p>
+			]]></description>
+			<short_description><![CDATA[Site de réservation en ligne d'appartements aux Arcs 2000
+pour Philippe Genin]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>PHP</p><p>MySQL</p>]]></technos>
+			<year>2008</year>
+			<link>http://www.philippegeninlocations.com</link>
+			<folder>genin</folder>
+			<images>
+				<image>genin1.jpg</image>
+				<image>genin2.jpg</image>
+				<image>genin3.jpg</image>
+				<image>genin4.jpg</image>
+				<image>genin5.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="kitkat-break-ultime">
+			<titre>Kitkat Break Ultime</titre>
+			<description><![CDATA[<p>Opération marketing annuelle de Nestlé au sein de Touche Etoile. Tous les ans, un lot de 100 000€ à gagner sous forme de vayage dans l'espace, d'une île paradisiaque, de jet privé ou encore de 10 ans de vacances !</p><br><p>Selon l'opréation : vidéo interactives, gameplay arcade, application mobile ou webApp.</p><br><p>500 millions de codes à gérer en BDD. Opération multi-canal (web, SMS, webApp mobile), compte multi-support synchronisés tous reliés à la même BDD.</p><p>Mise en place d'un monitoring anti-fraude.</p>
+			]]></description>
+			<short_description><![CDATA[Opération promotionnelle pour Nestlé]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2010</year>
+			<link></link>
+			<folder>kitkat-break-ultime</folder>
+			<images>
+				<image>kitkat-break-ultime1.jpg</image>
+				<image>kitkat-break-ultime2.jpg</image>
+				<image>kitkat-break-ultime3.jpg</image>
+				<image>kitkat-break-ultime4.jpg</image>
+				<image>kitkat-break-ultime5.jpg</image>
+				<image>kitkat-break-ultime6.jpg</image>
+				<image>kitkat-break-ultime7.jpg</image>
+				<image>kitkat-break-ultime8.jpg</image>
+				<image>kitkat-break-ultime9.jpg</image>
+				<image>kitkat-break-ultime10.jpg</image>
+				<image>kitkat-break-ultime11.jpg</image>
+				<image>kitkat-break-ultime12.jpg</image>
+				<image>kitkat-break-ultime13.jpg</image>
+				<image>kitkat-break-ultime14.jpg</image>
+				<image>kitkat-break-ultime15.jpg</image>
+				<image>kitkat-break-ultime16.jpg</image>
+				<image>kitkat-break-ultime17.jpg</image>
+				<image>kitkat-break-ultime18.jpg</image>
+				<image>kitkat-break-ultime19.jpg</image>
+				<image>kitkat-break-ultime20.png</image>
+				<image>kitkat-break-ultime21.png</image>
+				<image>kitkat-break-ultime22.png</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="ksting">
+			<titre>Ferrero Ksting</titre>
+			<description><![CDATA[<p>Jeu concours photo pour Ferrero au sein de Touche Etoile.</p><br><br><p>Application accessible depuis un mini-site et une application Facebook dédiée pour plus de viralité et de visibilité.</p><br><p>Les comptes sont partagés entre les deux versions.</p><br><p>Mise en place d'un monitoring anti-fraude et analyse hebdomadaire des participations suspectes.</p>]]></description>
+			<short_description><![CDATA[Mini-site et application Facebook pour Ferrero Jeu concours photo]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>PHP</p><p>MySQL</p>]]></technos>
+			<year>2011</year>
+			<link></link>
+			<folder>ksting</folder>
+			<images>
+				<image>ksting1.jpg</image>
+				<image>ksting2.jpg</image>
+				<image>ksting3.jpg</image>
+				<image>ksting4.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="latinaderm">
+			<titre>Latinaderm</titre>
+			<description><![CDATA[<p>Site wordpress responsive pour Galderma (Nestlé et L'Oréal) à l'occasion du Latinaderm Excellence, congrès médical pour la recherche et l'éducation en dermatologie d'Amérique Latine.</p><br><br><p>Les inscriptions au congrès sont faites via le site et gérées par le backoffice Wordpress.</p>]]></description>
+			<short_description><![CDATA[Site wordpress responsive pour Latinaderm.]]></short_description>
+			<technos><![CDATA[<p>Wordpress</p><p>PHP</p><p>MySQL</p>]]></technos>
+			<year>2013</year>
+			<link>http://latinadermexcellence.com/</link>
+			<folder>latinaderm</folder>
+			<images>
+				<image>latinaderm1.png</image>
+				<image>latinaderm2.png</image>
+				<image>latinaderm3.png</image>
+				<image>latinaderm4.png</image>
+				<image>latinaderm5.png</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="dickson">
+			<titre>Dickson</titre>
+			<description><![CDATA[<p>Webapp d'aide à la vente optimisée pour iPad.</p><br><br><p>Cette webApp vient en complément de l'application <u><a href="http://www.dicksondesigner.com/" target="_blank">DicksonDesigner</a></u>. Elle aide le client à configurer son produit en s'affranchissant des catalogues papier.</p><br><br><p>Prise en charge de la connexion entre la webApp et les webservices de Dickson.</p>]]></description>
+			<short_description><![CDATA[Webapp pour DicksonDesigner.]]></short_description>
+			<technos><![CDATA[<p>HTML5</p><p>Javascript</p>]]></technos>
+			<year>2013</year>
+			<link></link>
+			<folder>dickson</folder>
+			<images>
+				<image>dickson-1.png</image>
+				<image>dickson-2.png</image>
+				<image>dickson-3.png</image>
+				<image>dickson-4.png</image>
+				<image>dickson-5.png</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="blz">
+			<titre>BLZ Jeans</titre>
+			<description><![CDATA[<p>Application Facebook événementielle pour BLZ Jeans.</p><br><br><p>Sur le thème du casino, l'application propose de choisir plusieurs amis (ou d'en choisitr aléatoirement) pour les placer sur les cases d'une roulette.</p><br><br><p> Si la bille s'arrête sur un des amis, c'est gagné !</p>]]></description>
+			<short_description><![CDATA[Application Facebook.]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2012</year>
+			<link></link>
+			<folder>blz</folder>
+			<images>
+				<image>blz-1.png</image>
+				<image>blz-2.png</image>
+				<image>blz-3.png</image>
+				<image>blz-4.png</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="quadriplay">
+			<titre>Créteil soleil</titre>
+			<description><![CDATA[<p>WebApp optimisée pour Galaxy Tab.</p><br><br><p>Application événementielle pour le centre commercial Créteil Soleil. Une hôtesse d'acceuil proposait aux clients du centre commercial de rédiger un message pour la Saint-Valentin sur la tablette.</p><br><p>Une fois le message validé, il s'affichait en temps réel sur un écran géant dans le magasin.</p>]]></description>
+			<short_description><![CDATA[WebApp optimisée pour Galaxy Tab.]]></short_description>
+			<technos><![CDATA[<p>HTML5</p><p>PHP</p><p>MySQL</p>]]></technos>
+			<year>2013</year>
+			<link></link>
+			<folder>quadriplay</folder>
+			<images>
+				<image>quadriplay-1.jpg</image>
+				<image>quadriplay-2.jpg</image>
+				<image>quadriplay-3.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="kinotes">
+			<titre>Kinepolis</titre>
+			<description><![CDATA[<p>Site événementiel pour les cinémas Kinepolis à l'occasion de leur nouveau site.</p><br><br><p>Un quizz interactif permettait de masquer l'ancien site à chaque réponse avec des post-it pour finalement révéler le nouveau.</p><br><br><p>Les animations HTML ont été réalisées avec Edge Animate</p>]]></description>
+			<short_description><![CDATA[Site événementiel pour les cinémas Kinepolis.]]></short_description>
+			<technos><![CDATA[<p>HTML5 / Edge Animate</p><p>PHP</p><p>MySQL</p>]]></technos>
+			<year>2013</year>
+			<link></link>
+			<folder>kinotes</folder>
+			<images>
+				<image>kinotes-1.png</image>
+				<image>kinotes-2.png</image>
+				<image>kinotes-3.png</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="magic-moments">
+			<titre>La Redoute - Magic Moments</titre>
+			<description><![CDATA[<p>Gameplay shoot'em up pour La Redoute International.</p><br><br><p>Application en 5 langues avec 6 partenaires  commerciaux (Oreange, Nestlé, Buch, Snapfish, DailyDeal, Oh!).</p><br><br><p>Gestion de la nature, des conditions d'attibution et des modalités du gain à l'issue du gameplay différentes pour chaque partenaire et/ou langue.</p>]]></description>
+			<short_description><![CDATA[Gameplay shoot'em up pour La Redoute International]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2013</year>
+			<link></link>
+			<folder>magic-moments</folder>
+			<images>
+				<image>magic-moments-1.jpg</image>
+				<image>magic-moments-2.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="carrefour-spectacle">
+			<titre>Carrefour Spectacle</titre>
+			<description><![CDATA[<p>Opération événementielle pour Carrefour Spectacle.</p><br><br><p>Mécanique de gain (grattage en Instant Gagnant) intégré dans le design de l'application.</p>]]></description>
+			<short_description><![CDATA[Opération événementielle pour Carrefour Spectacle.]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2010</year>
+			<link></link>
+			<folder>carrefour-spectacle</folder>
+			<images>
+				<image>carrefour-spectacle-1.jpg</image>
+				<image>carrefour-spectacle-2.jpg</image>
+				<image>carrefour-spectacle-3.jpg</image>
+				<image>carrefour-spectacle-4.jpg</image>
+				<image>carrefour-spectacle-5.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="franprix">
+			<titre>Le marché Franprix</titre>
+			<description><![CDATA[<p>Prototype de virtualisation de magasin.</p><br><br><p>La vue 3D gérée par Unity3d peut être couplée avec un site e-commerce ou une application Flash via une communication côté Javascript.</p><br><p>Les produits mis en rayons sont gérés par un backoffice et chargés au runtime. Chaque magasin peut avoir sa propre configuration de rayon.</p>]]></description>
+			<short_description><![CDATA[Prototype de virtualisation de magasin.]]></short_description>
+			<technos><![CDATA[<p>Flash AS3 / Unity3d / Javascript</p><p>PHP</p><p>MySQL</p>]]></technos>
+			<year>2009</year>
+			<link>http://lunald.com/franprix/</link>
+			<folder>franprix</folder>
+			<images>
+				<image>franprix-1.jpg</image>
+				<image>franprix-2.jpg</image>
+				<image>franprix-3.jpg</image>
+				<image>franprix-4.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="chu">
+			<titre>CHRU Montpellier</titre>
+			<description><![CDATA[<p>WebApp de formulaire  d'admission au CHRU.</p><br><br><p>Une tablette est mise à disposition des patients qui peuvent remplir le formulaire d'informations dans la salle d'attente. Une fois le formulaire vérifié par le médecin, il est directement envoyé dans le SI de l'hôpital.</p><br><p>Un système de verrouillage de l'application permet de garantir la confidentialité des informations</p>]]></description>
+			<short_description><![CDATA[WebApp formulaire d'admission.]]></short_description>
+			<technos><![CDATA[<p>HTML</p><p>ASP</p>]]></technos>
+			<year>2009</year>
+			<link></link>
+			<folder>chu</folder>
+			<images>
+				<image>chu-1.png</image>
+				<image>chu-2.png</image>
+				<image>chu-3.png</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="vediorbis">
+			<titre>Vediorbis</titre>
+			<description><![CDATA[<p>Site événementiel pour Vediorbis à l'occasion de la coupe du monde de rugby.</p><br><p>L'application dispose de deux entrées, B2B et B2C, donnat droit à différents gains.</p><br><p>6 gameplays arcade, débloqués au fil de la coupe du monde, sont à disposition pour gagner un maximum de points : jackpot, jeu de rythme, tir de pénalité, bonto, endurance (button mashing) et réflexe.</p>]]></description>
+			<short_description><![CDATA[Site événementiel regroupant 6 gameplays.]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2007</year>
+			<link></link>
+			<folder>vediorbis</folder>
+			<images>
+				<image>vediorbis-1.jpg</image>
+				<image>vediorbis-2.jpg</image>
+				<image>vediorbis-3.jpg</image>
+				<image>vediorbis-4.jpg</image>
+				<image>vediorbis-5.jpg</image>
+				<image>vediorbis-6.jpg</image>
+				<image>vediorbis-7.jpg</image>
+				<image>vediorbis-8.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="curly">
+			<titre>Curly</titre>
+			<description><![CDATA[<p>Site avec vidéo interactive pour la marque Curly.</p><br><p>Un test d'affinité avec les mascottes est proposé à l'internaute. L'animation est assurée par les personnages modélisés en 3D puis intégrés dans l'application par plus de 50 clips vidéos interactifs.</p><br><br><p>Après optimisation, l'application passe sous les 10Mo sans temps de chargement intermédiaire.</p>]]></description>
+			<short_description><![CDATA[Site avec vidéo interactive.]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2012</year>
+			<link></link>
+			<folder>curly</folder>
+			<images>
+				<image>curly-1.png</image>
+				<image>curly-2.png</image>
+				<image>curly-3.png</image>
+				<image>curly-4.png</image>
+				<image>curly-5.png</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="lunald">
+			<titre>Lunald</titre>
+			<description><![CDATA[<p>Projet de fin d'étude IUP IAISV.</p><br><p>Un des premiers "point and clic" gratuit et online.</p><br><p>Possibilité de sauvegarder à n'importe quel moment de la partie si un compte est créé.</p><br><p>Graphisme réalisé par <u><a href="http://www.linkedin.com/in/charlesepinette" target="_blank">Charles Epinette</a></u></p>]]></description>
+			<short_description><![CDATA[Projet de fin d'étude IUP IAISV.]]></short_description>
+			<technos><![CDATA[<p>Flash AS2 / 3DSMax</p><p>PHP</p><p>MySQL</p>]]></technos>
+			<year>2005</year>
+			<link>http://www.lunald.com/dcol/game.htm</link>
+			<folder>lunald</folder>
+			<images>
+				<image>lunald1.jpg</image>
+				<image>lunald2.jpg</image>
+				<image>lunald3.jpg</image>
+				<image>lunald4.jpg</image>
+				<image>lunald5.jpg</image>
+				<image>lunald6.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="orthowave">
+			<titre>Orthowave The Game</titre>
+			<description><![CDATA[<p>Manuel interactif du <u><a href="http://www.orthowave.net/" target="_blank">logiciel Orthowave</a></u>.</p><br><br><p>Application sous forme de logiciel pour PC et Mac à installer, véritable expérience de gameplay pédagogique.<br><br>Version multilingue, améliorée et optimisée du moteur de Lunald.</p><br><br><p>Graphisme réalisé par <u><a href="http://www.linkedin.com/in/charlesepinette" target="_blank">Charles Epinette</a></u></p>]]></description>
+			<short_description><![CDATA[Manuel interactif du logiciel Orthowave]]></short_description>
+			<technos><![CDATA[<p>Flash AS2</p>]]></technos>
+			<year>2007</year>
+			<link>http://www.lunald.com/ow6/game.htm</link>
+			<folder>orthowave</folder>
+			<images>
+				<image>orthowave1.jpg</image>
+				<image>orthowave2.jpg</image>
+				<image>orthowave3.jpg</image>
+				<image>orthowave4.jpg</image>
+				<image>orthowave5.jpg</image>
+				<image>orthowave6.jpg</image>
+				<image>orthowave7.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="papermates">
+			<titre>Matesworld</titre>
+			<description><![CDATA[<p>Espace de jeux online et multilingue pour enfant.</p><br><p>Le portail dispose d'une chambre virtuelle customisable grâce à une boutique virtuelle.</p><p>La monnaie virtuelle se gagne en participant à la loterie quotidienne et aux différents mini-gameplays.</p><p>La plateforme accueille ponctuellement des jeux à dotations.</p><br><p>Relais de news du site Gulli.fr via la rubrique dédiée et une application AIR.</p>]]></description>
+			<short_description><![CDATA[Espace de jeux pour enfant]]></short_description>
+			<technos><![CDATA[<p>Flash AS3 / AIR</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2010</year>
+			<link></link>
+			<folder>papermates</folder>
+			<images>
+				<image>papermates1.jpg</image>
+				<image>papermates2.jpg</image>
+				<image>papermates3.jpg</image>
+				<image>papermates4.jpg</image>
+				<image>papermates5.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="pikigraphik">
+			<titre>Pikigraphik</titre>
+			<description><![CDATA[<p>Développement du portfolio de Pikigraphik.</p><br><br><p>Portfolio pouvant supporter tout type de contenu : photo, vidéo (hébergées sur le serveur ou Youtube, Dailymotion, etc...), gameplay Flash AS2 et AS3</p>]]></description>
+			<short_description><![CDATA[Développement du portfolio de Pikigraphik]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p>]]></technos>
+			<year>2010</year>
+			<link>http://pikigraphik.free.fr</link>
+			<folder>pikigraphik</folder>
+			<images>
+				<image>pikigraphik1.jpg</image>
+				<image>pikigraphik2.jpg</image>
+				<image>pikigraphik3.jpg</image>
+				<image>pikigraphik4.jpg</image>
+				<image>pikigraphik5.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="recto-verso">
+			<titre>Recto Verso</titre>
+			<description><![CDATA[<p>Site vitrine de la série animée Recto Verso.</p><br><br><p>Les animations sont issues de la série.</p><br><br><p>Graphisme réalisé par <u><a href="http://pikigraphik.free.fr" target="_blank">Pikigraphik</a></u>.</p>
+			]]></description>
+			<short_description><![CDATA[Site vitrine de la série animée Recto Verso.]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p>]]></technos>
+			<year>2010</year>
+			<link></link>
+			<folder>recto-verso</folder>
+			<images>
+				<image>recto-verso1.jpg</image>
+				<image>recto-verso2.jpg</image>
+				<image>recto-verso3.jpg</image>
+				<image>recto-verso4.jpg</image>
+				<image>recto-verso5.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="saperlisapin">
+			<titre>Saperlisapin</titre>
+			<description><![CDATA[<p>Opération promotionelle pour LaRedoute au sein de Touche Etoile.</p><br><br><p>L'application permet de planter des sapins dans une forêt virtuelle en y ajoutant un message personnel.</p><br><p>La forêt s'agrandit automatiquement de manière concentrique suivant le nombre d'arbres plantés via un algorithme.</p><br><p>Un moteur de recherche permet de retrouver les sapins plantés.</p>]]></description>
+			<short_description><![CDATA[Jeu concours participatif pour LaRedoute]]></short_description>
+			<technos><![CDATA[<p>Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2008</year>
+			<link></link>
+			<folder>saperlisapin</folder>
+			<images>
+				<image>saperlisapin1.jpg</image>
+				<image>saperlisapin2.jpg</image>
+				<image>saperlisapin3.jpg</image>
+				<image>saperlisapin4.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="the-pour-tango">
+			<titre>The pour Tango</titre>
+			<description><![CDATA[<p>Application développée dans le cadre du Master Médias Interactifs pour le module de photo interactive.</p><br><br><p>Animation réalisée en stop motion.</p><br><br><p>Les filtres (nouvelle fonctionnalité de Flash 8) ont été utilisés pour modifier l'aspect visuel des photos.</p>]]></description>
+			<short_description><![CDATA[Animation interactive en stop motion.]]></short_description>
+			<technos><![CDATA[<p>Flash AS2</p>]]></technos>
+			<year>2006</year>
+			<link>http://lunald.com/the-pour-tango/</link>
+			<folder>the-pour-tango</folder>
+			<images>
+				<image>the-pour-tango1.jpg</image>
+				<image>the-pour-tango2.jpg</image>
+				<image>the-pour-tango3.jpg</image>
+				<image>the-pour-tango4.jpg</image>
+				<image>the-pour-tango5.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="zodio">
+			<titre>Mon Noël avec Zôdio</titre>
+			<description><![CDATA[<p>Jeu concours photo pour Zôdio au sein de Touche Etoile.</p><br><br><p>Interface de modération en Flex.</p>]]></description>
+			<short_description><![CDATA[Jeu concours photo pour Zôdio]]></short_description>
+			<technos><![CDATA[<p>Flex / Flash AS3</p><p>ASP</p><p>SQL Server</p>]]></technos>
+			<year>2010</year>
+			<link></link>
+			<folder>zodio</folder>
+			<images>
+				<image>zodio1.jpg</image>
+				<image>zodio2.jpg</image>
+				<image>zodio3.jpg</image>
+				<image>zodio4.jpg</image>
+				<image>zodio5.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="granus">
+			<titre>Granus III</titre>
+			<description><![CDATA[<p>Gameplay de shoot'em up réalisé dans le cadre du Master Médias Interactif, module programmation Flash.</p><br><br><p>Les vidéos tranparentes (nouvelle fonctionnalité de Flash 8) ont été utilisées pour les explosions.</p><br><p>Les explosions ont été réalisées avec le logiciel Particle Illusion.</p><br><p>Graphisme réalisé par <u><a href="http://www.linkedin.com/in/charlesepinette" target="_blank">Charles Epinette</a></u></p>]]></description>
+			<short_description><![CDATA[Gameplay de shoot'em up]]></short_description>
+			<technos><![CDATA[<p>Flash AS2</p><p>Particle Illusion</p>]]></technos>
+			<year>2006</year>
+			<link>http://www.lunald.com/granus/</link>
+			<folder>granus</folder>
+			<images>
+				<image>granus1.jpg</image>
+				<image>granus2.jpg</image>
+				<image>granus3.jpg</image>
+				<image>granus4.jpg</image>
+				<image>granus5.jpg</image>
+				<image>granus6.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="granny">
+			<titre>Granny Fun House</titre>
+			<description><![CDATA[<p>Gameplay réalisé durant le développement de Lunald, pour la détente.</p><br><p>Graphisme réalisé par <u><a href="http://www.linkedin.com/in/charlesepinette" target="_blank">Charles Epinette</a></u></p>]]></description>
+			<short_description><![CDATA[Gameplay de tir au pigeon]]></short_description>
+			<technos><![CDATA[<p>Flash AS2</p>]]></technos>
+			<year>2005</year>
+			<link>http://www.lunald.com/grannyfunhouse/</link>
+			<folder>granny</folder>
+			<images>
+				<image>granny1.jpg</image>
+				<image>granny2.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="modele">
+			<titre>Modèle Vivant</titre>
+			<description><![CDATA[<p>Croquis réalisés dans le cadre de l'ESAD (Ecole Supérieure d'Art et de Design) d'Amiens ou durant le module d'Atrs plastiques de l'IUP IAISV.</p>]]></description>
+			<short_description><![CDATA[Croquis réalisés dans le cadre de l'ESAD]]></short_description>
+			<technos><![CDATA[<p>Crayons</p><p>Pastel sec</p><p>Fusain</p>]]></technos>
+			<link></link>
+			<folder>modele-vivant</folder>
+			<images>
+				<image>modele1.jpg</image>
+				<image>modele2.jpg</image>
+				<image>modele3.jpg</image>
+				<image>modele4.jpg</image>
+				<image>modele5.jpg</image>
+				<image>modele6.jpg</image>
+				<image>modele7.jpg</image>
+				<image>modele8.jpg</image>
+				<image>modele9.jpg</image>
+				<image>modele10.jpg</image>
+				<image>modele11.jpg</image>
+				<image>modele12.jpg</image>
+				<image>modele13.jpg</image>
+				<image>modele14.jpg</image>
+				<image>modele15.jpg</image>
+				<image>modele16.jpg</image>
+				<image>modele17.jpg</image>
+				<image>modele18.jpg</image>
+				<image>modele19.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+		<realisation id="originaux">
+			<titre>Création</titre>
+			<description><![CDATA[<p>Croquis réalisés dans le cadre de l'ESAD (Ecole Supérieure d'Art et de Design) d'Amiens, pour le module Scénographie de l'IUP IAISV (création de costumes) ou durant mon temps libre.</p>]]></description>
+			<short_description><![CDATA[Croquis réalisés sur mon temps libre ou dans le cadre de l'IUP IAISV]]></short_description>
+			<technos><![CDATA[<p>Crayons</p><p>Pastel sec</p>]]></technos>
+			<link></link>
+			<folder>originaux</folder>
+			<images>
+				<image>originaux1.jpg</image>
+				<image>originaux2.jpg</image>
+				<image>originaux3.jpg</image>
+				<image>originaux4.jpg</image>
+				<image>originaux5.jpg</image>
+				<image>originaux6.jpg</image>
+				<image>originaux7.jpg</image>
+				<image>originaux8.jpg</image>
+				<image>originaux9.jpg</image>
+				<image>originaux10.jpg</image>
+				<image>originaux11.jpg</image>
+				<image>originaux12.jpg</image>
+				<image>originaux13.jpg</image>
+				<image>originaux14.jpg</image>
+				<image>originaux15.jpg</image>
+				<image>originaux16.jpg</image>
+			</images>
+			<mini>mini.jpg</mini>
+		</realisation>
+	</realisations>
+</root>

@@ -1,0 +1,113 @@
+// main: all.less
+/*
+ * navbar
+ * --------------------------------------------------
+ */
+.navbar-inverse{
+    background-color: #ffffff;
+    border-color: @light-gray-color;
+	
+	.navbar-toggle {
+		border-color: @light-gray-color;
+		margin-left: 1em;
+		margin-right: 0.5em;
+		background-color:@red-color;
+		
+		&:hover, &:focus{
+			background-color:@dark-gray-color;
+		}
+	}
+}
+
+.navbar-brand {
+    padding: 5px 0 0 0;
+}
+
+/*
+ * nav
+ * --------------------------------------------------
+ */
+.nav-stacked{
+    >li+li{
+        margin:0;   
+    }
+}
+
+.nav{
+    margin-top:1em;
+    li {
+        background-color:@dark-gray-color;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: "squada_oneregular";
+        border-top : 1px solid @light-gray-color;
+        
+        &:hover:after {
+            top: 0;
+            left: 0;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-top-color: #ffffff;
+            border-width: 5px;
+            margin-left: -5px;
+        }
+        
+        &.active{
+            background-color:@red-color;
+            &:hover{
+                color: #ffffff;
+            }
+			
+			a{
+				color:#ffffff;
+				&:hover, &:focus{
+					background-color:@red-color;
+					color:#ffffff;
+				}
+			}
+        }
+        
+        a{
+            color:#ffffff;
+            &:hover, &:focus{
+                background-color:@dark-gray-color;
+                color:@red-color;
+            }
+        }
+        
+        &:first-child, &:first-child:hover{
+            border-top : 0px solid @light-gray-color;
+            border-top-right-radius: 6px;
+        }
+        &:last-child, &:last-child:hover{
+            border-top : 0px solid @light-gray-color;
+            border-bottom-right-radius: 6px;
+        }
+    }
+    
+}
+
+.nav-cv {
+    margin-right: 1em;
+    
+    a, a:hover{
+        background-color:@red-color;
+        border-bottom-right-radius: 6px;
+    }
+}
+
+.navbar-cv{
+    margin-right: 1em;
+    a.navbar-link {
+		&, &:hover{
+			color:#ffffff;
+			font-family: 'squada_oneregular';
+			text-decoration: none;
+			font-size: 1.1em;
+    	}
+	}
+}

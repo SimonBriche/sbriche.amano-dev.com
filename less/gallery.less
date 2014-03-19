@@ -1,0 +1,32 @@
+// main: all.less
+/*
+ * gallery
+ * --------------------------------------------------
+ */
+.gallery {
+    padding:0.5em 0;
+    overflow:auto;
+    text-align:center;
+    border: 1px solid @light-gray-color;
+    
+    ul {
+        padding:0;
+        margin:0;
+        white-space: nowrap;
+        
+        li{
+            list-style: none;
+            display:inline-block;
+
+            img{
+                &.img-thumbnail{
+                    width: @gallery-thumbnail-width;
+                    height: @gallery-thumbnail-height;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

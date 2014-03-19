@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><config>
+<!-- URL du serveur hébergeant la plateforme -->
+<url_server>http://gabaritcs5.touche-etoile.fr/</url_server>
+<!-- URL de l'opération -->
+<url>http://gabaritcs5.touche-etoile.fr/games/67/</url>
+<!-- URL du dossier des scripts appeles par le flash (absolu ou relatif à l'index du site) -->
+<url_scripts>asp/</url_scripts>
+<!-- URL des fichiers appeles par le flash (absolu ou à la suite de url_server) -->
+<url_files></url_files>
+<!-- URL des swf chargés par l'application (absolu ou à la suite de url_server) -->
+<swf_path>swf/games/67/</swf_path>
+<!-- URL des XML chargés par l'application (absolu ou relatif à l'index du site) -->
+<xml_path>xml/</xml_path>
+<!-- URL des mp3 chargés par l'application (absolu ou relatif à l'index du site) -->
+<mp3_path>mp3/</mp3_path>
+<!-- type de connexion aux scripts -->
+<connexion_type>ConnexionASP</connexion_type>
+<!-- langue -->
+<lang>FR</lang>
+<!-- ID du jeu -->
+<id_jeu>67</id_jeu>
+<!-- ID du projet -->
+<id_projet>52</id_projet>
+<!-- ID de la session jeu mécanique -->
+<id_session_jeu_mecanique>158</id_session_jeu_mecanique>
+<!-- type de participation -->
+<type_participation>1</type_participation>
+<!-- type d'inscription -->
+<id_type_inscription>3</id_type_inscription>
+<!-- largeur du swf -->
+<documentWidth>960</documentWidth>
+<!-- hauteur du swf -->
+<documentHeight>560</documentHeight>
+<!-- musique de fond -->
+<zik_fond>fond.mp3</zik_fond>
+<!-- nombre de TAF -->
+<nb_part><![CDATA[3]]></nb_part>
+<!-- swf charge par defaut si rien n'est specifie en flashVars -->
+<default_swf>jeu.swf</default_swf>
+<!-- version du site. A changer pour rafraichir le cache des internautes -->
+<site_version>1.0</site_version>
+<!-- nom du cookie -->
+<nom_cookie>NOM_COOKIE</nom_cookie>
+<!-- compte GoogleAnalytics -->
+<ga_account></ga_account>
+<!-- compte Omniture -->
+<omni_account></omni_account>
+<sm><![CDATA[10]]></sm>
+<im><![CDATA[50]]></im>
+<spi><![CDATA[10]]></spi>
+<status_mode><![CDATA[staging]]></status_mode>
+</config>

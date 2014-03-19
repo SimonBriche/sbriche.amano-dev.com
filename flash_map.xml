@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:te="http://www.touche-etoile.fr/2010/XMLSchema">
+	<active>0</active>
+	<te:page src="Inscription" section="inscription" title="Bienvenue!" status="home" />
+	<te:page src="Identification" section="identification" title="Identifies-toi" />
+	<te:page src="OubliMDP" section="rappel-des-identifiants" title="Rappel des identifiants" />
+	<te:page src="MonCompte" section="mon-compte" title="Mon compte" status="secured" />
+	<te:page src="reglement.swf" section="reglement" title="Règlement" />
+	<te:page src="cadeaux.swf" section="cadeaux" title="Cadeaux" />
+</root>

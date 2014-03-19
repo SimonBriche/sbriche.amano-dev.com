@@ -1,0 +1,188 @@
+// main: all.less
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+/*
+ * override bootstrap classes
+ * --------------------------------------------------
+ */
+
+.img-thumbnail {
+    background-color: @red-color;
+    cursor: pointer;
+}
+
+#top.jumbotron{
+    text-align: center;
+    background-color: rgb(238,238,238);
+    background-color: rgba(238,238,238,0.5);
+}
+
+
+#page{
+    background: url(../images/bg-separator.png) repeat-y , url(../images/hexellence.png) repeat;
+    background-color:#ffffff;
+}
+
+.container-fluid.main{
+    padding-top: @navbar-space;  /*space for top bar nav */
+    background:url(../images/hixs_pattern_evolution.png) repeat;
+    background-color:#ffffff;
+    box-shadow: 0px 5px 10px -5px @shadow-color;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=@shadow-color, Direction=180, Strength=10);
+}
+
+.btn-danger{
+    background-color: @red-color;
+}
+
+/*
+ * Custom styles
+ * --------------------------------------------------
+ */
+.signature{
+    color:@red-color;
+    text-align: right;
+}
+
+.logo_html {
+    img {
+        height:2em;
+        vertical-align: text-bottom;
+    }
+    
+    span{
+        font-family: 'squada_oneregular';
+        font-weight: 600;
+        text-transform: uppercase;
+        color: @dark-gray-color;
+        font-size: 2em
+    }
+    
+    span + span{
+        font-family: 'tulpen_oneregular';
+        font-weight: 600;
+        color: @dark-gray-color;
+    }
+}
+
+/*
+ * page
+ * --------------------------------------------------
+ */
+#page {
+    section {
+        background-color: #ffffff;
+        margin: 3em 0.5em;
+        padding: 0.5em 0;
+        border: 1px solid @light-gray-color;
+        box-shadow: 0px 5px 10px -5px @shadow-color;
+        filter:progid:DXImageTransform.Microsoft.Shadow(color=@shadow-color, Direction=180, Strength=10);
+    
+        header {
+            text-transform: uppercase;
+            color: #666;
+            font-size: 3em;
+            padding: 0.25em;
+            font-family: 'tulpen_oneregular';
+            font-weight: 600;
+            text-align: center;
+
+            &:first-letter
+            { 
+                font-size:1.5em;
+                color:@red-color;
+            }
+        }
+        
+        article {
+            text-align: justify;
+            padding: 0.5em;
+            margin:0.5em;
+            background-color: #fff;
+            border: solid @dark-gray-color;
+            border-width: 0 0 2px 2px;
+            color: @dark-gray-color;
+            position: relative;
+
+            p:first-letter
+            { 
+                font-size:1.2em;
+                color:@red-color;
+            }
+
+            //base arrow
+            &:after, &:before {
+                top: 100%;
+                left: 16px;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+            //arrows
+            &:after {
+                border-top-color: #fff;
+                border-width: 10px;
+                margin-left: -10px;
+            }
+            &:before{
+                border-top-color: @dark-gray-color;
+                border-width: 12px;
+                margin-left: -12px;
+            }
+        }
+    }
+}
+
+/*
+ * footer
+ * --------------------------------------------------
+ */
+footer {
+    padding: 0;
+    background-color: #ffffff;
+    
+    p{
+        color: @light-gray-color; 
+    }
+    
+    .thumbnail{
+        max-width: @footer-thumbnail-max-width;
+        width: @footer-thumbnail-width;
+    }
+}
+
+/*
+ * media queries
+ * --------------------------------------------------
+ */
+@media screen and (min-width: 768px) {
+    .container-fluid.main {
+        padding-top: 0;  /*no more space for top bar nav */
+    }
+    footer .thumbnail{
+        max-width: 75px;
+        width:auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+   #main-container{
+       background: url(../images/bg_lg.png) repeat-y 16.6666667% 0;
+   }
+    #page{
+       background: transparent;
+    }
+    .container-fluid.main {
+        background:transparent;  
+    }
+}

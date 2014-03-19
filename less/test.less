@@ -1,0 +1,482 @@
+//out : ../less/test.css
+/*
+ * Variables
+ * --------------------------------------------------
+ */
+@red-color:#b12b28;
+@dark-gray-color:#333333;
+@light-gray-color:#cccccc;
+@navbar-space:50px;
+@shadow-color:#656565;
+@carousel-image-height:500px;
+
+@gallery-thumbnail-width:180px;
+@gallery-thumbnail-height:120px;
+
+@footer-thumbnail-width:40px;
+@footer-thumbnail-max-width:75px;
+
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+/*
+ * bootstrap classes custom
+ * --------------------------------------------------
+ */
+
+/*
+ * body
+ * --------------------------------------------------
+ */
+
+.img-thumbnail {
+    background-color: @red-color;
+    cursor: pointer;
+}
+
+#top.jumbotron{
+    text-align: center;
+    background-color: rgb(238,238,238);
+    background-color: rgba(238,238,238,0.5);
+}
+
+
+#page{
+    background: url(../images/bg-separator.png) repeat-y , url(../images/hexellence.png) repeat;
+    background-color:#ffffff;
+}
+
+.container-fluid.main{
+    padding-top: @navbar-space;  /*space for top bar nav */
+    background:url(../images/hixs_pattern_evolution.png) repeat;
+    background-color:#ffffff;
+    box-shadow: 0px 5px 10px -5px @shadow-color;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=@shadow-color, Direction=180, Strength=10);
+}
+
+.btn-danger{
+    background-color: @red-color;
+}
+
+/*
+ * form
+ * --------------------------------------------------
+ */
+textarea{
+    width:100%;
+}
+.control-label{
+    color:@dark-gray-color;   
+}
+
+.help-block{
+    margin:0;
+    padding:0;
+}
+
+#contact .row{
+    border: 1px solid @light-gray-color;
+    border-width: 1px 0 1px 0;
+}
+#contact form{
+    margin: 1em 0;
+}
+
+/*
+ * navbar
+ * --------------------------------------------------
+ */
+.navbar-inverse{
+    background-color: #ffffff;
+    border-color: @light-gray-color;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: @light-gray-color;
+    margin-left: 1em;
+    margin-right: 0.5em;
+    background-color:@red-color;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+     background-color:@dark-gray-color;
+}
+
+.navbar-brand {
+    padding: 10px 0 0 0;
+}
+
+
+
+/*
+ * nav
+ * --------------------------------------------------
+ */
+.nav-stacked{
+    &>li+li{
+        margin:0;   
+    }
+}
+
+.nav{
+    margin-top:1em;
+    &>li {
+        background-color:@dark-gray-color;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: "squada_oneregular";
+        border-top : 1px solid #cccccc;
+        
+        &:hover:after {
+            top: 0;
+            left: 0;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-top-color: #ffffff;
+            border-width: 5px;
+            margin-left: -5px;
+        }
+        
+        &.active{
+            background-color:@red-color;
+            &:hover{
+                color: #ffffff;
+            }
+        }
+        
+        &>a{
+            color:#ffffff;
+            &:hover, &focus{
+                background-color:@dark-gray-color;
+                color:@red-color;
+            }
+        }
+        
+        &:first-child, &:first-child:hover{
+            border-top : 0px solid @light-gray-color;
+            border-top-right-radius: 6px;
+        }
+        &:last-child, &:last-child:hover{
+            border-top : 0px solid @light-gray-color;
+            border-bottom-right-radius: 6px;
+        }
+    }
+    
+}
+
+/*
+ * modal
+ * --------------------------------------------------
+ */
+.modal-header {
+    background-color: @red-color;
+}
+.modal-title {
+    color: #ffffff;
+    font-weight: bold;
+}
+.modal-footer {
+    margin:0;
+}
+
+/*
+ * carousel
+ * --------------------------------------------------
+ */
+.carousel-control{
+    cursor: pointer;
+}
+.carousel-fixed-height img {
+    width: auto;
+    height: @carousel-image-height;
+    max-height: @carousel-image-height;
+    margin: auto;
+}
+
+/*
+ * Custom styles
+ * --------------------------------------------------
+ */
+.signature{
+    color:@red-color;
+    text-align: right;
+}
+
+.logo_html {
+    img {
+        height:2em;
+        vertical-align: text-bottom;
+    }
+    
+    span{
+        font-family: 'squada_oneregular';
+        font-weight: 600;
+        text-transform: uppercase;
+        color: @dark-gray-color;
+        font-size: 2em
+    }
+    
+    span + span{
+        font-family: 'tulpen_oneregular';
+        font-weight: 600;
+        color: @dark-gray-color;
+    }
+}
+
+.nav-cv {
+    margin-right: 1em;
+    
+    a, a:hover{
+        background-color:@red-color;
+        border-bottom-right-radius: 6px;
+    }
+}
+
+.navbar-cv{
+    margin-right: 1em;
+    a.navbar-link, a.navbar-link:hover{
+        color:#ffffff;
+        font-family: 'squada_oneregular';
+        text-decoration: none;
+        font-size: 1.1em;
+    }
+}
+
+
+/*
+ * modal
+ * --------------------------------------------------
+ */
+.modal {
+    cite{
+        font-family: 'squada_oneregular';
+        color: @dark-gray-color;
+    }
+    
+    .description{
+        margin: 1em 0;
+        
+        div{
+            position: relative;
+            line-height: 0em;
+            padding: 1em 0.5em;
+            border:1px solid @light-gray-color;
+            
+            //base arrows
+            &:after, &:before {
+                top: 0;
+                left: 0;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+        }
+        
+        p{
+            line-height: 1em;
+            padding: 0.3em;
+            margin: 0em;
+            
+            &:first-letter
+            { 
+                font-size:1.3em;
+                color:@red-color;
+            }
+        }
+        
+        &.left{
+            text-align: left;
+            
+            div{
+                border-width: 1px 0 0 1px;
+                
+                //arrow
+                &:after {
+                    border-top-color: #fff;
+                    border-width: 10px 10px 0px 0px;
+                    top: -1px;
+                    left:-1px
+                }
+                
+                &:before{
+                    border-left-color: @light-gray-color;
+                    border-width: 0px 10px 10px 10px;
+                    top: 0px;
+                    left:0px
+                }
+            }
+        }
+        
+        &.right{
+            text-align: right;
+            
+            div{
+                border-width: 1px 1px 0 0;
+                color:@red-color;
+                
+                //arrow
+                &:after {
+                    border-top-color: #fff;
+                    border-width: 10px 0px 0px 10px;
+                    top: -1px;
+                    left:100%;
+                    margin-left: -9px;
+                }
+                
+                &:before{
+                    border-top-color: @light-gray-color;
+                    border-width: 10px 0px 10px 10px;
+                    top: 0px;
+                    left: 100%;
+                    margin-left: -10px;
+                }
+            }
+        }
+        
+        a {
+            text-decoration: none;
+            color:@red-color;
+            &:hover{
+                color: darken(@red-color, 10%);
+            }
+        }
+    }
+}
+
+/*
+ * page
+ * --------------------------------------------------
+ */
+#page {
+    section {
+        background-color: #ffffff;
+        margin: 3em 0.5em;
+        padding: 0.5em 0;
+        border: 1px solid @light-gray-color;
+        box-shadow: 0px 5px 10px -5px @shadow-color;
+        filter:progid:DXImageTransform.Microsoft.Shadow(color=@shadow-color, Direction=180, Strength=10);
+    
+        header {
+            text-transform: uppercase;
+            color: #666;
+            font-size: 3em;
+            padding: 0.25em;
+            font-family: 'tulpen_oneregular';
+            font-weight: 600;
+            text-align: center;
+
+            &:first-letter
+            { 
+                font-size:1.5em;
+                color:@red-color;
+            }
+        }
+        
+        article {
+            text-align: justify;
+            padding: 0.5em;
+            margin:0.5em;
+            background-color: #fff;
+            border: solid @dark-gray-color;
+            border-width: 0 0 2px 2px;
+            color: @dark-gray-color;
+            position: relative;
+
+            p:first-letter
+            { 
+                font-size:1.2em;
+                color:@red-color;
+            }
+
+            //base arrow
+            &:after, &:before {
+                top: 100%;
+                left: 16px;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+            //arrows
+            &:after {
+                border-top-color: #fff;
+                border-width: 10px;
+                margin-left: -10px;
+            }
+            &:before{
+                border-top-color: @dark-gray-color;
+                border-width: 12px;
+                margin-left: -12px;
+            }
+        }
+    }
+}
+
+/*
+ * gallery
+ * --------------------------------------------------
+ */
+.gallery {
+    padding:0.5em 0;
+    overflow:auto;
+    text-align:center;
+    border: 1px solid @light-gray-color;
+    
+    ul {
+        padding:0;
+        margin:0;
+        white-space: nowrap;
+        
+        li{
+            list-style: none;
+            display:inline-block;
+
+            img{
+                &.img-thumbnail{
+                    width: @gallery-thumbnail-width;
+                    height: @gallery-thumbnail-height;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+/*
+ * footer
+ * --------------------------------------------------
+ */
+footer {
+    padding: 0;
+    background-color: #ffffff;
+    
+    p{
+        color: @light-gray-color; 
+    }
+    
+    .thumbnail{
+        max-width: @footer-thumbnail-max-width;
+        width: @footer-thumbnail-width;
+    }
+}
+
+@import (inline) "offcanvas.css";

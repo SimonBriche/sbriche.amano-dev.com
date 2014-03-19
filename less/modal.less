@@ -1,0 +1,118 @@
+// main: all.less
+/*
+ * override bootstrap classes
+ * --------------------------------------------------
+ */
+.modal-header {
+    background-color: @red-color;
+}
+.modal-title {
+    color: #ffffff;
+    font-weight: bold;
+}
+.modal-footer {
+    margin:0;
+}
+
+/*
+ * modal custom
+ * --------------------------------------------------
+ */
+.modal {
+    cite{
+        font-family: 'squada_oneregular';
+        color: @dark-gray-color;
+    }
+    
+    .description{
+        margin: 1em 0;
+        
+        div{
+            position: relative;
+            line-height: 0em;
+            padding: 1em 0.5em;
+            border:1px solid @light-gray-color;
+            
+            //base arrows
+            &:after, &:before {
+                top: 0;
+                left: 0;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+        }
+        
+        p{
+            line-height: 1em;
+            padding: 0.3em;
+            margin: 0em;
+            
+            &:first-letter
+            { 
+                font-size:1.3em;
+                color:@red-color;
+            }
+        }
+        
+        &.left{
+            text-align: left;
+            
+            div{
+                border-width: 1px 0 0 1px;
+                
+                //arrow
+                &:after {
+                    border-top-color: #fff;
+                    border-width: 10px 10px 0px 0px;
+                    top: -1px;
+                    left:-1px
+                }
+                
+                &:before{
+                    border-left-color: @light-gray-color;
+                    border-width: 0px 10px 10px 10px;
+                    top: 0px;
+                    left:0px
+                }
+            }
+        }
+        
+        &.right{
+            text-align: right;
+            
+            div{
+                border-width: 1px 1px 0 0;
+                color:@red-color;
+                
+                //arrow
+                &:after {
+                    border-top-color: #fff;
+                    border-width: 10px 0px 0px 10px;
+                    top: -1px;
+                    left:100%;
+                    margin-left: -9px;
+                }
+                
+                &:before{
+                    border-top-color: @light-gray-color;
+                    border-width: 10px 0px 10px 10px;
+                    top: 0px;
+                    left: 100%;
+                    margin-left: -10px;
+                }
+            }
+        }
+        
+        a {
+            text-decoration: none;
+            color:@red-color;
+            &:hover{
+                color: darken(@red-color, 10%);
+            }
+        }
+    }
+}
