@@ -391,6 +391,10 @@ footer .thumbnail {
   font-family: 'squada_oneregular';
   color: #333333;
 }
+.modal .bt-test-container {
+  margin: 1em 0;
+  text-align: right;
+}
 .modal .description {
   margin: 1em 0;
 }

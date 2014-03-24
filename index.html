@@ -37,7 +37,7 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll" data-target="#menu" data-offset="50">
+  <body data-spy="scroll" data-target="#menu" data-offset="56">
     <div id="flash_content">
         <!-- Modal --> 
         <div ng-app="realModule" ng-controller="realController" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -65,8 +65,10 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                   </a>
                 </div><!-- /.carousel -->
-
-                <div class="description left">
+				<div class="bt-test-container">
+					<a id="btTest" href="{{link}}" target="_blank" class="btn btn-danger" >Tester !</a>
+                </div>
+				<div class="description left">
                     <span class="glyphicon glyphicon glyphicon-cog"></span>  
                     <cite>Description / Specs</cite>
                     <div ng-bind-html="description"></div>
@@ -77,9 +79,7 @@
                     <div ng-bind-html="technos"></div>
                 </div>
               </div>
-
               <div class="modal-footer">
-                <a id="btTest" href="{{link}}" target="_blank" class="btn btn-danger" >Tester !</a>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
               </div>
             </div><!-- /.content -->
