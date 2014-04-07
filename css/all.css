@@ -69,6 +69,10 @@
  * --------------------------------------------------
  */
 /*
+ * Mixins
+ * --------------------------------------------------
+ */
+/*
  * Style tweaks
  * --------------------------------------------------
  */
@@ -89,10 +93,17 @@ body {
   text-align: center;
   background-color: #eeeeee;
   background-color: rgba(238, 238, 238, 0.5);
+  background: url(../images/bg-header.png);
+  background-position: center bottom;
+  background-size: auto 200px;
+  border-radius: 6px;
+  margin: 0.5em;
+  padding: 1em 1em 0.1em;
 }
-#page {
-  background: url(../images/bg-separator.png) repeat-y, url(../images/hexellence.png) repeat;
-  background-color: #ffffff;
+#top.jumbotron .baseline {
+  font-family: 'ralewaymedium';
+  color: #ffffff;
+  margin: 1em 0 0;
 }
 .container-fluid.main {
   padding-top: 50px;
@@ -117,22 +128,45 @@ body {
   height: 2em;
   vertical-align: text-bottom;
 }
-.logo_html span {
+.logo_html > span {
   font-family: 'squada_oneregular';
   font-weight: 600;
   text-transform: uppercase;
   color: #333333;
   font-size: 2em;
 }
-.logo_html span + span {
+.logo_html > span + span {
   font-family: 'tulpen_oneregular';
   font-weight: 600;
+  color: #999999;
+}
+.logo_html.big {
+  margin: 0 0 2em;
+}
+.logo_html.big img {
+  height: 6em;
+}
+.logo_html.big span {
+  font-size: 6em;
+}
+.logo_html .baseline {
+  font-family: 'ralewaymedium';
   color: #333333;
+  font-size: 0.5em;
+  margin: -0.5em 0;
+  padding: 0;
+}
+.logo_html .baseline span {
+  color: #b12b28;
 }
 /*
  * page
  * --------------------------------------------------
  */
+#page {
+  background: url(../images/bg-separator.png) repeat-y, url(../images/hexellence.png) repeat;
+  background-color: #ffffff;
+}
 #page section {
   background-color: #ffffff;
   margin: 3em 0.5em;
@@ -140,6 +174,39 @@ body {
   border: 1px solid #cccccc;
   box-shadow: 0px 5px 10px -5px #656565;
   filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=10);
+}
+#page section figure {
+  position: relative;
+  text-align: center;
+  width: 10em;
+}
+#page section figure .fa {
+  text-align: center;
+  font-size: 7em;
+  line-height: 1.2em;
+  color: #333333;
+}
+#page section figure:before,
+#page section figure:after {
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  font-size: 3em;
+  line-height: 0;
+}
+#page section figure:before {
+  top: 0;
+  left: -0.5em;
+  content: "{";
+  color: #b12b28;
+}
+#page section figure:after {
+  top: 50%;
+  left: 100%;
+  content: ":";
+  color: #b12b28;
 }
 #page section header {
   text-transform: uppercase;
@@ -160,13 +227,42 @@ body {
   margin: 0.5em;
   background-color: #fff;
   border: solid #333333;
-  border-width: 0 0 2px 2px;
+  border-width: 0 0 2px 0;
   color: #333333;
   position: relative;
+  font-family: 'ralewaymedium';
 }
-#page section article p:first-letter {
+#page section article .description {
+  position: relative;
+}
+#page section article .description p:first-letter {
   font-size: 1.2em;
   color: #b12b28;
+}
+#page section article .description:after {
+  bottom: 0.5em;
+  right: 0;
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  font-size: 3em;
+  line-height: 0;
+  content: "}";
+  color: #b12b28;
+}
+#page section article .description address {
+  text-align: center;
+}
+#page section article .about {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 0.9em;
+  color: #cccccc;
 }
 #page section article:after,
 #page section article:before {
@@ -189,6 +285,13 @@ body {
   border-width: 12px;
   margin-left: -12px;
 }
+#page section a {
+  text-decoration: none;
+  color: #b12b28;
+}
+#page section a:hover {
+  color: #87211f;
+}
 /*
  * footer
  * --------------------------------------------------
@@ -201,7 +304,7 @@ footer p {
   color: #cccccc;
 }
 footer .thumbnail {
-  max-width: 75px;
+  max-width: 50px;
   width: 40px;
 }
 /*
@@ -214,7 +317,6 @@ footer .thumbnail {
     /*no more space for top bar nav */
   }
   footer .thumbnail {
-    max-width: 75px;
     width: auto;
   }
 }
@@ -312,6 +414,21 @@ footer .thumbnail {
   border-top: 0px solid #cccccc;
   border-bottom-right-radius: 6px;
 }
+nav address {
+  font-family: 'ralewaymedium';
+  font-size: 0.9em;
+  margin: 1em;
+  color: #cccccc;
+  border-left: 3px solid #cccccc;
+  padding-left: 1em;
+}
+nav address a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav address a:hover {
+  color: #e6e6e6;
+}
 .nav-cv {
   margin-right: 1em;
 }
@@ -353,6 +470,10 @@ footer .thumbnail {
   text-align: center;
   border: 1px solid #cccccc;
 }
+.gallery.logos .thumbnail {
+  width: 40px;
+  margin: 0;
+}
 .gallery ul {
   padding: 0;
   margin: 0;
@@ -387,6 +508,9 @@ footer .thumbnail {
  * modal custom
  * --------------------------------------------------
  */
+.modal {
+  font-family: 'ralewaymedium';
+}
 .modal cite {
   font-family: 'squada_oneregular';
   color: #333333;
@@ -485,6 +609,13 @@ footer .thumbnail {
   font-family: 'squada_oneregular';
   src: url('../font/squadaone-regular-webfont.eot');
   src: url('../font/squadaone-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/squadaone-regular-webfont.woff') format('woff'), url('../font/squadaone-regular-webfont.ttf') format('truetype'), url('../font/squadaone-regular-webfont.svg#squada_oneregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ralewaymedium';
+  src: url('../font/raleway-medium-webfont.eot');
+  src: url('../font/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../font/raleway-medium-webfont.woff') format('woff'), url('../font/raleway-medium-webfont.ttf') format('truetype'), url('../font/raleway-medium-webfont.svg#ralewaymedium') format('svg');
   font-weight: normal;
   font-style: normal;
 }

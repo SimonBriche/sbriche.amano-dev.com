@@ -17,7 +17,7 @@
         $nom = $_POST['nom']; 
         $prenom = $_POST['prenom']; 
         $email = $_POST['email']; 
-        $message = $_POST['message'];      
+        $message = stripslashes($_POST["message"]);      
     }
 
     if($error == "0"){
@@ -30,9 +30,10 @@
         // create email body and send it    
         $to = 'briche.simon@gmail.com'; 
         // put your email 
-        $email_subject = "Contact via sbriche.free.fr:  $nom $prenom"; $email_body = "Nouveau message via sbriche.free.fr. \n\n".                 
+        $email_subject = "Contact via sbriche.free.fr:  $nom $prenom"; 
+		$email_body = "Nouveau message via sbriche.free.fr. \n\n".                 
                        "Message de :\n\nNom: $nom \nPrénom: $prenom \n".                  
-                       "Email: $email\n\n\n Message : \n $message"; 
+                       "Email: $email\n\n\n Message : \n $message";
         $headers = "From: $email\n"; 
         $headers .= "Reply-To: $email";
 

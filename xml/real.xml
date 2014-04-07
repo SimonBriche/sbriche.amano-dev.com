@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
 	<galleries>
-		<gallery id="accueil">
+		<gallery id="home">
 			<realisation id="recto-verso" />
 			<realisation id="genin" />
 			<realisation id="lunald" />
@@ -26,12 +26,12 @@
 		<gallery id="real-pro">
 			<realisation id="kitkat-break-ultime" />
 			<realisation id="ksting" />
-			<realisation id="quadriplay" />
+			<realisation id="saperlisapin" />
 			<realisation id="carrefour-spectacle" />
+			<realisation id="quadriplay" />
 			<realisation id="latinaderm" />
 			<realisation id="recto-verso" />
 			<realisation id="chu" />
-			<realisation id="saperlisapin" />
 			<realisation id="pikigraphik" />
 			<realisation id="dickson" />
 			<realisation id="genin" />

@@ -35,6 +35,7 @@
 
 .nav{
     margin-top:1em;
+	
     li {
         background-color:@dark-gray-color;
         color: #ffffff;
@@ -88,16 +89,34 @@
             border-bottom-right-radius: 6px;
         }
     }
-    
+}
+
+nav{
+	address{
+		font-family: 'ralewaymedium';
+		font-size: 0.9em;
+		margin:1em;
+		color:@light-gray-color;
+		border-left: 3px solid @light-gray-color;
+		padding-left: 1em;
+		
+		a {
+			text-decoration: none;
+			color:#ffffff;
+			&:hover{
+				color: darken(#ffffff, 10%);
+			}
+		}
+	}
 }
 
 .nav-cv {
-    margin-right: 1em;
-    
-    a, a:hover{
-        background-color:@red-color;
-        border-bottom-right-radius: 6px;
-    }
+	margin-right: 1em;
+
+	a, a:hover{
+		background-color:@red-color;
+		border-bottom-right-radius: 6px;
+	}
 }
 
 .navbar-cv{

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="author" content="Simon BRICHE">
     <meta name="title" content="Simon BRICHE - D&eacute;veloppeur web" />
     <meta name="description" content="Simon BRICHE - D&eacute;veloppeur web professionnel depuis 2006 et passionn&eacute; par le num&eacute;rique depuis plus de 20 ans, je suis sp&eacute;cialis&eacute; dans le d&eacute;veloppement d'applications interactives online.">
@@ -14,6 +14,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">  
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     <title>Simon BRICHE - D&eacute;veloppeur web</title>
+	
     <!-- Open Graph data -->
     <meta property="og:title" content="Simon BRICHE - D&eacute;veloppeur web" />
     <meta property="og:type" content="website" />
@@ -23,7 +24,11 @@
     
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+	
+	<!-- Font Awesome core CSS 
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">-->
+	<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+	
     <!-- Custom styles for offcanvas system -->
     <link href="css/offcanvas.css" rel="stylesheet">
 
@@ -95,7 +100,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand"><div class="logo_html"><img src="images/100x100.png"><span class="logo_font1">mano</span><span class="logo_font2">dev</span></div>
+              <a class="navbar-brand">
+				  <div class="logo_html">
+					<img src="images/logo-a.png">
+					<span class="logo_font1">mano</span>
+					<span class="logo_font2">dev</span>
+					<div class="baseline">
+						<span>D</span>&eacute;veloppeur <span>A</span>pplications <span>W</span>eb &amp; <span>M</span>obile
+					</div>
+				  </div>
               </a>
               <button type="button" class="btn btn-danger navbar-btn pull-right navbar-cv"><a href="CV-simon-briche-web.pdf" target="_blank" class="navbar-link">Mon CV</a></button>
             </div>
@@ -107,53 +120,177 @@
             <nav class="col-xs-6 col-sm-3 col-lg-2 sidebar-offcanvas" id="menu" role="navigation">
                 <ul class="nav nav-stacked">
                     <li><a href="#page">Home</a></li>
-                    <li><a href="#gameplay">Gameplay</a></li>
                     <li><a href="#real-pro">R&eacute;alisations</a></li>
+					<li><a href="#gameplay">Gameplay</a></li>
                     <li><a href="#croquis">Croquis</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li class="nav-cv hidden-xs"><a href="CV-simon-briche-web.pdf" target="_blank">Mon CV</a></li>
                 </ul>
+				<address class="hidden-xs">
+					Simon BRICHE<br>
+					51, rue Louis Montois<br>
+					59790 RONCHIN<br>
+					<a href="mailto:sbriche@free.fr" target="_blank">sbriche@free.fr</a><br>
+					<a href="tel:+33611890197">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-square-o fa-stack-2x"></i>
+							<i class="fa fa-phone fa-stack-1x"></i>
+						</span>0611890197
+					</a>
+				</address>
             </nav><!--/nav-->
 
             <div id="page" class="col-xs-12 col-sm-9 col-lg-offset-1 col-lg-8">
                 <div id="top" class="jumbotron hidden-xs">
-                    <img class="logo" src="images/logo.png">
+                    <div class="logo_html big">
+						<img src="images/logo-a.png">
+						<span class="logo_font1">mano</span>
+						<span class="logo_font2">dev</span>
+					</div>
+					<div class="baseline">
+						D&eacute;veloppeur applications Web &amp; Mobile
+					</div>
                 </div>
-                <section id="accueil" class="col-1">
+                <section id="accueil">
                     <article>
-                        <p>D&eacute;veloppeur web professionnel depuis 2006 et passionn&eacute; par le num&eacute;rique depuis plus de 20 ans, je suis sp&eacute;cialis&eacute; dans le d&eacute;veloppement d'applications interactives online.</p><p>Vous pourrez consulter ici quelques unes de mes r&eacute;alisations.</p>                           <p>Bonne visite.</p>
-                        <p class="signature">Simon BRICHE</p>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<figure class="thumbnail center-block">
+										<img src="images/profil.png">
+									</figure>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								<div class="description col-xs-12 col-sm-8 col-lg-9">
+									<p>D&eacute;veloppeur web professionnel depuis 2006 et passionn&eacute; par le num&eacute;rique depuis mon premier Amstrad CPC 6128, je suis sp&eacute;cialis&eacute; dans le d&eacute;veloppement d'applications interactives online.</p>
+									<p>J'ai r&eacute;uni ici quelques projets r&eacute;alis&eacute;s dans le cadre de mon activit&eacute; professionnelle ou en tant que d&eacute;veloppeur ind&eacute;pendant sur le secteur de Lille (59).</p>
+									<p>N'hésitez pas &agrave; prendre quelques minutes pour tester les projets en d&eacute;monstration !</p>
+									<p class="signature">Simon BRICHE</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="about">, skills :</div>
+							</div>
+						</div>
                     </article>
-                    <div class="gallery">
+                    <div class="gallery logos">
                         <ul>
-                            <li><img src="images/pikigraphik/mini.jpg" class="img-thumbnail"></li>
-                            <li><img src="images/recto-verso/mini.jpg" class="img-thumbnail"></li>
-                            <li><img src="images/orthowave/mini.jpg" class="img-thumbnail"></li>
+                            <li>
+                                <a href="http://www.w3.org/TR/html5/" class="thumbnail">
+                                    <img src="images/logos-tools/logo-html5.png" title="HTML5" alt="HTML5">
+                                </a>
+                            </li>
+                            <li>
+                               <a href="http://www.w3.org/Style/CSS/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-css3.png" title="CSS3" alt="CSS3">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://jquery.com/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-jquery.png" title="jquery" alt="jquery">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.adobe.com/fr/products/flash.html" class="thumbnail">
+                                  <img src="images/logos-tools/logo-flash.png" title="flash" alt="flash">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.adobe.com/fr/products/air.html" class="thumbnail">
+                                  <img src="images/logos-tools/logo-air.png" title="air" alt="air">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.php.net/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-php.png" title="php" alt="php">
+                                </a>
+                            </li>
+							<li>
+                                <a href="https://www.mysql.fr/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-mysql.png" title="mysql" alt="mysql">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.microsoft.com/france/serveur-cloud/sql/default.aspx" class="thumbnail">
+                                  <img src="images/logos-tools/logo-sqlserver.png" title="sql server" alt="sql server">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.adobe.com/fr/products/flash-builder.html" class="thumbnail">
+                                  <img src="images/logos-tools/logo-flashbuilder.png" title="flash builder" alt="flash builder">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://brackets.io/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-brackets.png" title="brackets" alt="brackets">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://getbootstrap.com/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-bootstrap.png" title="bootstrap" alt="bootstrap">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.adobe.com/fr/products/dreamweaver.html" class="thumbnail">
+                                  <img src="images/logos-tools/logo-dreamweaver.png" title="dreamweaver" alt="dreamweaver">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.adobe.com/fr/products/photoshop.html" class="thumbnail">
+                                  <img src="images/logos-tools/logo-photoshop.png" title="photoshop" alt="photoshop">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.adobe.com/fr/products/illustrator.html" class="thumbnail">
+                                  <img src="images/logos-tools/logo-illustrator.png" title="illustrator" alt="illustrator">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://www.adobe.com/fr/products/fireworks.html" class="thumbnail">
+                                  <img src="images/logos-tools/logo-fireworks.png" title="fireworks" alt="fireworks">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://angularjs.org/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-angular.png" title="angular" alt="angular">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://lesscss.org/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-less.png" title="less" alt="less">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://html.adobe.com/fr/edge/inspect/" class="thumbnail">
+                                  <img src="images/logos-tools/logo-inspect.png" title="edge inspect" alt="edge inspect">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                  </section>
-                <section id="gameplay">
-                    <header>Gameplay</header>
+				<section id="real-pro">
+<!--                    <header>R&eacute;alisations Pro</header>-->
                     <article>
-                        <p>D&eacute;veloppeur multim&eacute;dia de formation, me suis sp&eacute;cialis&eacute; dans la gamification et l'advertainement.</p>
-                        <p>J'ai d&eacute;velopp&eacute; et particip&eacute; &agrave; la conception de ces gameplay. Ils ont &eacute;t&eacute; r&eacute;alis&eacute;s dans le cadre de mon activit&eacute; professionnelle, durant mes &eacute;tudes ou mon temps libre.
-                        </p>
-                    </article>
-                    <div class="gallery">
-                        <ul>
-                            <li><img src="images/lunald/mini.jpg" class="img-thumbnail"></li>
-                            <li><img src="images/orthowave/mini.jpg" class="img-thumbnail"></li>
-                            <li><img src="images/connexball/mini.jpg" class="img-thumbnail"></li>
-                            <li><img src="images/foot3d/mini.jpg" class="img-thumbnail"></li>
-                        </ul>
-                    </div>
-                </section>
-                <section id="real-pro">
-                    <header>R&eacute;alisations Pro</header>
-                    <article>
-                        <p>J'ai eu l'opportunit&eacute; de travailler pour de grands groupes tels que Nestl&eacute;, Ferrero Carrefour ou encore LaRedoute.</p>
-                        <p>Dans la plupart de ces projets j'ai assur&eacute; le développement technique des applications, mais aussi &eacute;t&eacute; force de conseil en relation directe avec les clients pour leur mise en place et leur sécurit&eacute;, notamment anti-fraude.
-                        </p>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<figure class="thumbnail center-block">
+										<i class="fa fa-cogs"></i>
+									</figure>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								<div class="description col-xs-12 col-sm-8 col-lg-9">
+									<p>J'ai eu l'opportunit&eacute; de travailler pour de grands groupes tels que Nestl&eacute;, Ferrero, Carrefour ou encore LaRedoute.</p>
+									<p>Dans la plupart de ces projets j'ai assur&eacute; le développement technique des applications, mais aussi &eacute;t&eacute; force de conseil en relation directe avec les clients pour leur mise en place et leur sécurit&eacute;, notamment anti-fraude. Et oui, avec de grosses dotations &agrave; la cl&eacute;, la tentation est parfois trop grande pour certains !
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="about">, web :</div>
+							</div>
+						</div>
+                        
                     </article>
                     <div class="gallery">
                         <ul>
@@ -167,13 +304,61 @@
                         </ul>
                     </div>
                 </section>
-                <section id="croquis">
-                    <header>Croquis</header>
+                <section id="gameplay">
+<!--                    <header>Gameplay</header>-->
                     <article>
-                       <p>M&ecirc;me si mon activit&eacute; professionnelle ne s'y pr&ecirc;te pas forc&eacute;ment, je reste un passion&eacute; de dessin.
-                        </p>
-                        <p>Ces croquis ont &eacute;t&eacute; r&eacute;alis&eacute;s au sein de l'ESAD (Ecole Sup&eacute;rieure d'Art et de Design) &agrave; Amiens, durant ma formation d'IUP IAISV (Ing&eacute;nierie des Arts de l&rsquo;Image et du Spectacle Vivant) &agrave; Valenciennes ou pendant mon temps libre.
-                        </p>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<figure class="thumbnail center-block">
+										<i class="fa fa-gamepad"></i>
+									</figure>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								<div class="description col-xs-12 col-sm-8 col-lg-9">
+									<p>Quoi de plus interactif qu'un bon gameplay ?</p>
+									<p>D&eacute;veloppeur multim&eacute;dia de formation et gamer dans la vie, me suis naturellement sp&eacute;cialis&eacute; dans la gamification et l'advertainement.</p>
+									<p>J'ai d&eacute;velopp&eacute; et particip&eacute; &agrave; la conception de ces gameplay, que vous pouvez tester pour certains. Ils ont &eacute;t&eacute; r&eacute;alis&eacute;s dans le cadre de mon activit&eacute; professionnelle, durant mes &eacute;tudes ou mon temps libre, et toujours avec passion !
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="about">, gaming :</div>
+							</div>
+						</div>
+                    </article>
+                    <div class="gallery">
+                        <ul>
+                            <li><img src="images/lunald/mini.jpg" class="img-thumbnail"></li>
+                            <li><img src="images/orthowave/mini.jpg" class="img-thumbnail"></li>
+                            <li><img src="images/connexball/mini.jpg" class="img-thumbnail"></li>
+                            <li><img src="images/foot3d/mini.jpg" class="img-thumbnail"></li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section id="croquis">
+<!--                    <header>Croquis</header>-->
+                    <article>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<figure class="thumbnail center-block">
+										<i class="fa fa-home"></i>
+									</figure>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								<div class="description col-xs-12 col-sm-8 col-lg-9">
+									<p>M&ecirc;me si mon activit&eacute; professionnelle ne s'y pr&ecirc;te pas forc&eacute;ment, je reste un passion&eacute; de dessin.
+									</p>
+									<p>Ces croquis ont &eacute;t&eacute; r&eacute;alis&eacute;s au sein de l'ESAD (Ecole Sup&eacute;rieure d'Art et de Design) &agrave; Amiens (80), durant ma formation d'IUP IAISV (Ing&eacute;nierie des Arts de l&rsquo;Image et du Spectacle Vivant) &agrave; Valenciennes (59) ou pendant mon temps libre.
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="about">, croquis :</div>
+							</div>
+						</div>
                     </article>
                     <div class="gallery">
                         <ul>
@@ -188,10 +373,45 @@
                     </div>
                 </section>
                 <section id="contact">
-                    <header>Contact</header>
+                    <!--<header>Contact</header>-->
                     <article>
-                        <p>N'h&eacute;sitez pas &agrave; prendre contact !
-                        </p>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<figure class="thumbnail center-block">
+										<i class="fa fa-comments-o"></i>
+									</figure>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								<div class="description col-xs-12 col-sm-8 col-lg-9">
+									<p>Un projet &agrave; r&eacute;aliser ? Une question &agrave; poser ou tout simplement envie d'en savoir plus ?</p>
+									<p>N'h&eacute;sitez pas &agrave; me contacter !</p>
+									<hr>
+									<address class="container-fluid">
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												Simon BRICHE<br>
+												51, rue Louis Montois<br>
+												59790 RONCHIN
+											</div>
+											<div class="clearfix visible-xs"></div>
+											<div class="col-xs-12 col-sm-6">
+												<a href="mailto:sbriche@free.fr" target="_blank">sbriche@free.fr</a><br>
+												<a href="tel:+33611890197">
+													<span class="fa-stack fa-lg">
+														<i class="fa fa-square-o fa-stack-2x"></i>
+														<i class="fa fa-phone fa-stack-1x"></i>
+													</span>0611890197
+												</a>
+											</div>
+										</div>
+									</address>
+								</div>
+							</div>
+							<div class="row">
+								<div class="about">, contact :</div>
+							</div>
+						</div>
                     </article>
                         <div class="container-fluid">
                             <div class="row">
@@ -262,43 +482,43 @@
                         <p>Built with</p>
                         <ul class="list-inline">
                             <li>
-                                <a href="http://www.w3.org/TR/html5/" class="thumbnail">
-                                    <img src="images/logo-html5.png" title="HTML5" alt="HTML5">
+                                <a href="http://www.w3.org/TR/html5/" target="_blank" class="thumbnail">
+                                    <img src="images/logos-tools/logo-html5.png" title="HTML5" alt="HTML5">
                                 </a>
                             </li>
                             <li>
-                               <a href="http://www.w3.org/Style/CSS/" class="thumbnail">
-                                  <img src="images/logo-css3.png" title="CSS3" alt="CSS3">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://angularjs.org/" class="thumbnail">
-                                  <img src="images/logo-angular.png" title="angular" alt="angular">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://jquery.com/" class="thumbnail">
-                                  <img src="images/logo-jquery.png" title="jquery" alt="jquery">
+                               <a href="http://www.w3.org/Style/CSS/" target="_blank" class="thumbnail">
+                                  <img src="images/logos-tools/logo-css3.png" title="CSS3" alt="CSS3">
                                 </a>
                             </li>
 							<li>
-                                <a href="http://lesscss.org/" class="thumbnail">
-                                  <img src="images/logo-less.png" title="less" alt="less">
+                                <a href="http://jquery.com/" target="_blank" class="thumbnail">
+                                  <img src="images/logos-tools/logo-jquery.png" title="jquery" alt="jquery">
                                 </a>
                             </li>
                             <li>
-                                <a href="http://getbootstrap.com/" class="thumbnail">
-                                  <img src="images/logo-bootstrap.png" title="bootstrap" alt="bootstrap">
+                                <a href="http://angularjs.org/" target="_blank" class="thumbnail">
+                                  <img src="images/logos-tools/logo-angular.png" title="angular" alt="angular">
+                                </a>
+                            </li>
+							<li>
+                                <a href="http://lesscss.org/" target="_blank" class="thumbnail">
+                                  <img src="images/logos-tools/logo-less.png" title="less" alt="less">
                                 </a>
                             </li>
                             <li>
-                                <a href="http://brackets.io/" class="thumbnail">
-                                  <img src="images/logo-brackets.png" title="brackets" alt="brackets">
+                                <a href="http://getbootstrap.com/" target="_blank" class="thumbnail">
+                                  <img src="images/logos-tools/logo-bootstrap.png" title="bootstrap" alt="bootstrap">
                                 </a>
                             </li>
                             <li>
-                                <a href="http://html.adobe.com/fr/edge/inspect/" class="thumbnail">
-                                  <img src="images/logo-inspect.png" title="edge inspect" alt="edge inspect">
+                                <a href="http://brackets.io/" target="_blank" class="thumbnail">
+                                  <img src="images/logos-tools/logo-brackets.png" title="brackets" alt="brackets">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://html.adobe.com/fr/edge/inspect/" target="_blank" class="thumbnail">
+                                  <img src="images/logos-tools/logo-inspect.png" title="edge inspect" alt="edge inspect">
                                 </a>
                             </li>
                         </ul>
